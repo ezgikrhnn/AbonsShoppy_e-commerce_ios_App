@@ -11,6 +11,12 @@
 		EC5A39672C5172DD00435744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39662C5172DD00435744 /* ContentView.swift */; };
 		EC5A39692C5172E200435744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5A39682C5172E200435744 /* Assets.xcassets */; };
 		EC5A396C2C5172E200435744 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5A396B2C5172E200435744 /* Preview Assets.xcassets */; };
+		EC5A39762C5174FC00435744 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39752C5174FC00435744 /* HomeView.swift */; };
+		EC5A39782C51754B00435744 /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39772C51754B00435744 /* LikesView.swift */; };
+		EC5A397A2C5176C800435744 /* ProductModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39792C5176C800435744 /* ProductModels.swift */; };
+		EC5A397D2C5177BC00435744 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A397C2C5177BC00435744 /* NetworkManager.swift */; };
+		EC5A397F2C51781D00435744 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */; };
+		EC5A39812C5178C400435744 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39802C5178C400435744 /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		EC5A39662C5172DD00435744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC5A39682C5172E200435744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5A396B2C5172E200435744 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5A39752C5174FC00435744 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC5A39772C51754B00435744 /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		EC5A39792C5176C800435744 /* ProductModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModels.swift; sourceTree = "<group>"; };
+		EC5A397C2C5177BC00435744 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		EC5A39802C5178C400435744 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,10 @@
 		EC5A39632C5172DD00435744 /* AbonsShoppy_e-commerce_ios_App */ = {
 			isa = PBXGroup;
 			children = (
+				EC5A397B2C5177A700435744 /* Extensions */,
+				EC5A39722C51743300435744 /* Model */,
+				EC5A39732C51744200435744 /* ViewModel */,
+				EC5A39742C51745100435744 /* View */,
 				EC5A39642C5172DD00435744 /* AbonsShoppy_e_commerce_ios_AppApp.swift */,
 				EC5A39662C5172DD00435744 /* ContentView.swift */,
 				EC5A39682C5172E200435744 /* Assets.xcassets */,
@@ -65,6 +81,40 @@
 				EC5A396B2C5172E200435744 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5A39722C51743300435744 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A39792C5176C800435744 /* ProductModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC5A39732C51744200435744 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC5A39742C51745100435744 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A39752C5174FC00435744 /* HomeView.swift */,
+				EC5A39772C51754B00435744 /* LikesView.swift */,
+				EC5A39802C5178C400435744 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC5A397B2C5177A700435744 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A397C2C5177BC00435744 /* NetworkManager.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5A397D2C5177BC00435744 /* NetworkManager.swift in Sources */,
+				EC5A39812C5178C400435744 /* ProductDetailView.swift in Sources */,
+				EC5A397F2C51781D00435744 /* HomeViewViewModel.swift in Sources */,
+				EC5A397A2C5176C800435744 /* ProductModels.swift in Sources */,
+				EC5A39762C5174FC00435744 /* HomeView.swift in Sources */,
+				EC5A39782C51754B00435744 /* LikesView.swift in Sources */,
 				EC5A39672C5172DD00435744 /* ContentView.swift in Sources */,
 				EC5A39652C5172DD00435744 /* AbonsShoppy_e_commerce_ios_AppApp.swift in Sources */,
 			);
