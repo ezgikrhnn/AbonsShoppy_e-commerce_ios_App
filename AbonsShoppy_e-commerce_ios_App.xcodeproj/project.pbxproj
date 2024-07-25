@@ -17,6 +17,9 @@
 		EC5A397D2C5177BC00435744 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A397C2C5177BC00435744 /* NetworkManager.swift */; };
 		EC5A397F2C51781D00435744 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */; };
 		EC5A39812C5178C400435744 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39802C5178C400435744 /* ProductDetailView.swift */; };
+		EC5A39832C51A1DA00435744 /* LikesViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39822C51A1DA00435744 /* LikesViewViewModel.swift */; };
+		EC5A39852C51AE0200435744 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39842C51AE0200435744 /* RatingView.swift */; };
+		EC5A39892C52600400435744 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39882C52600400435744 /* ProductCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		EC5A397C2C5177BC00435744 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		EC5A39802C5178C400435744 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		EC5A39822C51A1DA00435744 /* LikesViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewViewModel.swift; sourceTree = "<group>"; };
+		EC5A39842C51AE0200435744 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EC5A39882C52600400435744 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				EC5A397E2C51781D00435744 /* HomeViewViewModel.swift */,
+				EC5A39822C51A1DA00435744 /* LikesViewViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -105,6 +112,8 @@
 				EC5A39752C5174FC00435744 /* HomeView.swift */,
 				EC5A39772C51754B00435744 /* LikesView.swift */,
 				EC5A39802C5178C400435744 /* ProductDetailView.swift */,
+				EC5A39842C51AE0200435744 /* RatingView.swift */,
+				EC5A39882C52600400435744 /* ProductCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,10 +199,13 @@
 				EC5A397D2C5177BC00435744 /* NetworkManager.swift in Sources */,
 				EC5A39812C5178C400435744 /* ProductDetailView.swift in Sources */,
 				EC5A397F2C51781D00435744 /* HomeViewViewModel.swift in Sources */,
+				EC5A39852C51AE0200435744 /* RatingView.swift in Sources */,
+				EC5A39892C52600400435744 /* ProductCellView.swift in Sources */,
 				EC5A397A2C5176C800435744 /* ProductModels.swift in Sources */,
 				EC5A39762C5174FC00435744 /* HomeView.swift in Sources */,
 				EC5A39782C51754B00435744 /* LikesView.swift in Sources */,
 				EC5A39672C5172DD00435744 /* ContentView.swift in Sources */,
+				EC5A39832C51A1DA00435744 /* LikesViewViewModel.swift in Sources */,
 				EC5A39652C5172DD00435744 /* AbonsShoppy_e_commerce_ios_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,8 +21,7 @@ struct HomeView: View {
                 LazyVGrid(columns: columns, spacing: 16) {
                     ForEach(viewModel.products) { product in
                         NavigationLink(destination: ProductDetailView(product: product)) {
-                            ProductCell(product: product)
-                                
+                            ProductCellView(product: product)
                         }
                     }
                 }
@@ -38,47 +37,9 @@ struct HomeView: View {
     }
 }
 
-struct ProductCell: View {
-    var product: Product
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            AsyncImage(url: URL(string: product.image)) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            } placeholder: {
-                Color.gray
-            }
-            .frame(width: 180, height: 150)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .padding(.top, 10)
-            .padding(.leading, 10) // Resim için sol boşluk ekleyelim
-            
-            Text(product.title)
-                .font(.system(size: 14))
-                .foregroundColor(.black)
-                .multilineTextAlignment(.leading)
-                .frame(width: 150, alignment: .leading)
-                .padding(.leading, 10) // Başlık için sol boşluk ekleyelim
-                .padding(.bottom, 8)
-            
-            Text("\(product.price, specifier: "%.2f")$")
-                .font(.subheadline)
-                .foregroundColor(Color("DarkBlue"))
-                .frame(width: 150, alignment: .leading)
-                .padding(.leading, 10) // Fiyat için sol boşluk ekleyelim
-        }
-        .padding(10)
-        .frame(width: 180, height: 300)
-        .background(Color.white)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
-        .shadow(radius: 5)
-    }
-}
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-            .environmentObject(HomeViewViewModel()) // Eğer environmentObject kullanıyorsanız burayı güncelleyin
+            
     }
 }
