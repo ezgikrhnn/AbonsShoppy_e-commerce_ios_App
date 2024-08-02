@@ -31,8 +31,10 @@ struct HomeView: View {
         }
         .onAppear {
             if viewModel.products.isEmpty { // Eğer ürünler daha önce yüklenmemişse
+                print("fetch başlatılıyor")
                                 viewModel.fetchProducts()
-                            }
+                print("goruntu yükleniyor")
+            }
         }
     }
 }

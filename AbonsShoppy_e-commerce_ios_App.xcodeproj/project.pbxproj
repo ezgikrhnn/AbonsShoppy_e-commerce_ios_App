@@ -20,6 +20,7 @@
 		EC5A39832C51A1DA00435744 /* LikesViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39822C51A1DA00435744 /* LikesViewViewModel.swift */; };
 		EC5A39852C51AE0200435744 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39842C51AE0200435744 /* RatingView.swift */; };
 		EC5A39892C52600400435744 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A39882C52600400435744 /* ProductCellView.swift */; };
+		EC5A398B2C526AC100435744 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A398A2C526AC100435744 /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		EC5A39822C51A1DA00435744 /* LikesViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewViewModel.swift; sourceTree = "<group>"; };
 		EC5A39842C51AE0200435744 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		EC5A39882C52600400435744 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		EC5A398A2C526AC100435744 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				EC5A39802C5178C400435744 /* ProductDetailView.swift */,
 				EC5A39842C51AE0200435744 /* RatingView.swift */,
 				EC5A39882C52600400435744 /* ProductCellView.swift */,
+				EC5A398A2C526AC100435744 /* TabbarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				EC5A39852C51AE0200435744 /* RatingView.swift in Sources */,
 				EC5A39892C52600400435744 /* ProductCellView.swift in Sources */,
 				EC5A397A2C5176C800435744 /* ProductModels.swift in Sources */,
+				EC5A398B2C526AC100435744 /* TabbarView.swift in Sources */,
 				EC5A39762C5174FC00435744 /* HomeView.swift in Sources */,
 				EC5A39782C51754B00435744 /* LikesView.swift in Sources */,
 				EC5A39672C5172DD00435744 /* ContentView.swift in Sources */,

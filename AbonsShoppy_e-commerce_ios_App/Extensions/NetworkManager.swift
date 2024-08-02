@@ -5,6 +5,7 @@
 //  Created by Ezgi Karahan on 24.07.2024.
 //
 
+//url session ve json decoder kullanıldı. urlSession ve jsonserialization da kullanılabilirdi.
 import Foundation
 
 class NetworkManager: ObservableObject {
@@ -21,6 +22,7 @@ class NetworkManager: ObservableObject {
                     let decodedData = try JSONDecoder().decode([Product].self, from: data)
                     DispatchQueue.main.async {
                         self.products = decodedData
+                        
                     }
                 } catch {
                     print("Error decoding data: \(error)")
