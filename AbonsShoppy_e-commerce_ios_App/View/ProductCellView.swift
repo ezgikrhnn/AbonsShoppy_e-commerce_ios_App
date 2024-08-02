@@ -72,6 +72,6 @@ struct ProductCellView: View {
 
 struct ProductCellView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCellView(product: Product(id: 1, title: "Test Product", price: 99.99, description: "This is a test product description.", category: "test", image: "https://via.placeholder.com/150", rating: Rating(rate: 4.5, count: 100)))
+        ProductCellView(product: Product(id: 1, title: "Test Product", price: 99.99, description: "This is a test product description.", category: "test", image: "https://via.placeholder.com/150", rating: Product.Rating(rate: 4.5, count: 100)))
     }
 }
